@@ -391,7 +391,7 @@ namespace devMobile.NetCore.SX127xShieldSPI
 			byte[] writeBuffer = new byte[length + 1];
 			byte[] readBuffer = new byte[length + 1];
 
-			// Write the frequency which is 3 bytes RegFrMsb 0x6c, RegFrMid 0x80, RegFrLsb or with 0x00 the write mask
+			// Write the frequency which is 3 bytes RegFrMsb 0x6c, RegFrMid 0x80, RegFrLsb or with 0x80 the write mask
 			writeBuffer[0] = 0x86 ;
 
 			// Works, have to point at unused CS0/CS1, others could be a problem is another another SPI device is on on CS0/CS1
