@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{F8147764-D4BE-4513-998E-46B2D97B5F68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GPIO", "GPIO\GPIO.csproj", "{9E81142D-1774-4182-A626-19EDA380D480}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GPIOInterrupts", "GPIOInterrupts\GPIOInterrupts.csproj", "{90D908C8-0B74-4C6B-A859-9C96F2DF7883}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SX127xShieldSPI", "SX127xShieldSPI\SX127xShieldSPI.csproj", "{628ED061-15A9-4E32-B26D-F0A70DDDA527}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8147764-D4BE-4513-998E-46B2D97B5F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8147764-D4BE-4513-998E-46B2D97B5F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8147764-D4BE-4513-998E-46B2D97B5F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8147764-D4BE-4513-998E-46B2D97B5F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E81142D-1774-4182-A626-19EDA380D480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E81142D-1774-4182-A626-19EDA380D480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E81142D-1774-4182-A626-19EDA380D480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E81142D-1774-4182-A626-19EDA380D480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90D908C8-0B74-4C6B-A859-9C96F2DF7883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90D908C8-0B74-4C6B-A859-9C96F2DF7883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90D908C8-0B74-4C6B-A859-9C96F2DF7883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90D908C8-0B74-4C6B-A859-9C96F2DF7883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628ED061-15A9-4E32-B26D-F0A70DDDA527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628ED061-15A9-4E32-B26D-F0A70DDDA527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628ED061-15A9-4E32-B26D-F0A70DDDA527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628ED061-15A9-4E32-B26D-F0A70DDDA527}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1C3407E-4FFB-4EB5-9133-87CAD038363E}
+	EndGlobalSection
+EndGlobal
